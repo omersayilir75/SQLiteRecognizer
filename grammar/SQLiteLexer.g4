@@ -128,6 +128,7 @@ IS_                : 'IS';
 ISNULL_            : 'ISNULL';
 JOIN_              : 'JOIN';
 KEY_               : 'KEY';
+LATERAL_           : 'LATERAL';
 LEFT_              : 'LEFT';
 LIKE_              : 'LIKE';
 LIMIT_             : 'LIMIT';
@@ -232,6 +233,8 @@ BIND_PARAMETER: '?' DIGIT* | [:@$] IDENTIFIER;
 STRING_LITERAL: '\'' ( ~'\'' | '\'\'')* '\'';
 
 BLOB_LITERAL: 'X' STRING_LITERAL;
+
+//todo this prob won't work for word mutation just ingoring would be better...
 
 SINGLE_LINE_COMMENT: '--' ~[\r\n]* (('\r'? '\n') | EOF) -> channel(HIDDEN);
 

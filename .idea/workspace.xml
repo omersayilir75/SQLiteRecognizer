@@ -4,53 +4,99 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="983bca77-ff2a-44b9-a383-3db8629e48a3" name="Changes" comment="added grammar files">
+    <list default="true" id="983bca77-ff2a-44b9-a383-3db8629e48a3" name="Changes" comment="added dependencies, generated parser">
+      <change afterPath="$PROJECT_DIR$/src/CustomErrorListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PPCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recognizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SampleFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TokenNeighbours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TokenTypePair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TokenTypePairSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WordMutator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/SQLiteLexer.g4" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/SQLiteLexer.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/SQLiteParser.g4" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/SQLiteParser.g4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2da1kMOsRF43xA5ufJGjaCZcBml" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/omer_/IdeaProjects/SQLiteRecognizer/grammar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Recognizer.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/omer_/IdeaProjects/SQLiteRecognizer/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer\src" />
       <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer\grammar" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer\src" />
+      <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer\src\gen" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Recognizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recognizer" />
+      <module name="SQLiteRecognizer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Recognizer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +106,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710231520111</updated>
-      <workItem from="1710231521175" duration="1110000" />
+      <workItem from="1710231521175" duration="7744000" />
+      <workItem from="1710239315571" duration="2567000" />
+      <workItem from="1710241907321" duration="1199000" />
+      <workItem from="1710243119112" duration="1351000" />
+      <workItem from="1710244494814" duration="8142000" />
+      <workItem from="1710257283717" duration="47000" />
+      <workItem from="1710257422216" duration="5718000" />
+      <workItem from="1710418522817" duration="71000" />
+      <workItem from="1710418644696" duration="2364000" />
+      <workItem from="1710421038127" duration="42129000" />
     </task>
     <task id="LOCAL-00001" summary="added grammar files">
       <option name="closed" value="true" />
@@ -70,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710231717200</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added dependencies, generated parser">
+      <option name="closed" value="true" />
+      <created>1710232735039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710232735039</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added grammar files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added grammar files" />
+    <MESSAGE value="added dependencies, generated parser" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dependencies, generated parser" />
   </component>
 </project>

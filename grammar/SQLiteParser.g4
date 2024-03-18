@@ -369,7 +369,7 @@ select_stmt
 ;
 
 join_clause
-    : table_or_subquery (join_operator table_or_subquery join_constraint?)*
+    : table_or_subquery (AS_? table_alias)? (join_operator* table_or_subquery join_constraint?)*
 ;
 
 select_core
@@ -401,7 +401,7 @@ compound_select_stmt
 
 table_or_subquery
     : (
-        (schema_name DOT)? table_name (AS_? table_alias)? (
+        (schema_name DOT)? table_name (AS_? table_alias)? (simple_func simple_function_invocation)? (
             INDEXED_ BY_ index_name
             | NOT_ INDEXED_
         )?
@@ -421,7 +421,8 @@ result_column
 
 join_operator
     : COMMA
-    | NATURAL_? (LEFT_ OUTER_? | INNER_ | CROSS_)? JOIN_
+    | LATERAL_
+    | NATURAL_? (LEFT_ OUTER_? | INNER_ | CROSS_)?  (RIGHT_ OUTER_? | INNER_ | CROSS_)? JOIN_
 ;
 
 join_constraint
