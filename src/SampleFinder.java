@@ -22,13 +22,13 @@ public class SampleFinder {
     static FileWriter csv;
 
     public static void main(String[] args) throws IOException {
-        log = new FileWriter("log_old.txt");
+        log = new FileWriter("log.txt");
         csv = new FileWriter("details.csv");
 
         // populate tokenNeighboursHashtable
         PPCalculator.calculatePoisonedPairs(poisonedPairs, tokenInstances, tokenNeighboursHashtable);
 
-        String pathName = "C:\\Users\\omer_\\Desktop\\gensamples\\positive\\bcgensamples";
+        String pathName = "C:\\Users\\omer_\\Desktop\\gensamples\\positive\\SQLite\\queries";
         try (Stream<Path> paths = Files.walk(Paths.get(pathName))) {
             paths.filter(p -> p.toFile().isFile())
                     .sorted(Comparator.comparing((Path p) -> p.toFile().length()).thenComparing(Path::toString))

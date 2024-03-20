@@ -25,42 +25,9 @@ public class PPCalculator {
     public static void calculatePoisonedPairs(HashSet<TokenTypePair> poisonedPairs, Hashtable<Integer, String> tokenInstances, Hashtable<Integer, TokenNeighbours> tokenNeighboursHashtable) throws IOException {
         // Folder path:
 
-        System.out.println("positives found from word mutation input");
-        String pathName_WM = "C:\\Users\\omer_\\Desktop\\gensamples\\positive\\bcgensamples\\cases_from_word_mutation";
-        try (Stream<Path> paths = Files.walk(Paths.get(pathName_WM))) {
-            paths.parallel().forEach(p -> processFile(p,tokenInstances, tokenNeighboursHashtable));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        System.out.println("Compiler Tests");
-        String pathName_CT = "C:\\Users\\omer_\\Desktop\\gensamples\\positive\\bcgensamples\\test_cases_from_compilers";
-        try (Stream<Path> paths = Files.walk(Paths.get(pathName_CT))) {
-            paths.parallel().forEach(p -> processFile(p,tokenInstances, tokenNeighboursHashtable));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        System.out.println("GA based input");
-        String pathName_GA = "C:\\Users\\omer_\\Desktop\\gensamples\\positive\\bcgensamples\\GA_based\\generated_input";
-        try (Stream<Path> paths = Files.walk(Paths.get(pathName_GA))) {
-              paths.parallel().forEach(p -> processFile(p,tokenInstances, tokenNeighboursHashtable));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-
-        System.out.println("depth 10 input");
-        String pathName_d10 = "C:\\Users\\omer_\\Desktop\\gensamples\\positive\\bcgensamples\\depth_10\\generated_input";
-        try (Stream<Path> paths = Files.walk(Paths.get(pathName_d10))) {
-            paths.parallel().forEach(p -> processFile(p, tokenInstances, tokenNeighboursHashtable));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        System.out.println("depth 20 input");
-        String pathName_d20 = "C:\\Users\\omer_\\Desktop\\gensamples\\positive\\bcgensamples\\depth_20\\generated_input";
-        try (Stream<Path> paths = Files.walk(Paths.get(pathName_d20))) {
+        System.out.println("processing generated sql:");
+        String pathName = "C:\\Users\\omer_\\Desktop\\gensamples\\positive\\SQLite\\queries";
+        try (Stream<Path> paths = Files.walk(Paths.get(pathName))) {
             paths.parallel().forEach(p -> processFile(p, tokenInstances, tokenNeighboursHashtable));
         } catch (IOException e) {
             e.printStackTrace();
