@@ -1317,7 +1317,7 @@ public class SQLiteLexer extends Lexer {
 		"\u06b0\u06b1\u0007%\u0000\u0000\u06b1\u0188\u0001\u0000\u0000\u0000\u001a"+
 		"\u0000\u0623\u0625\u062d\u062f\u0637\u063f\u0642\u0647\u064d\u0650\u0656"+
 		"\u0658\u065c\u0661\u0663\u066b\u066d\u0673\u0678\u067e\u0680\u068e\u0692"+
-		"\u0696\u06a0\u0001\u0000\u0001\u0000";
+		"\u0696\u06a0\u0001\u0006\u0000\u0000";
 	public static final ATN _ATN =
 		new ATNDeserializer().deserialize(_serializedATN.toCharArray());
 	static {

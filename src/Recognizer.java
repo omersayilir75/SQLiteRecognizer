@@ -25,15 +25,15 @@ public class Recognizer {
 
     public static void main(String[] args) throws IOException {
         // Folder path:
-        String pathName = "C:\\Users\\omer_\\Desktop\\Positive Samples\\sqlite\\found_sql(first_ten_pages)";
-
+//        String pathName = "C:\\Users\\omer_\\Desktop\\gensamples\\negative\\SQLite\\wordmutation\\output";
+        String pathName = "C:\\Users\\omer_\\Desktop\\gensamples\\positive\\SQLite\\queries";
         log = new FileWriter("log.txt");
 
         try (Stream<Path> paths = Files.walk(Paths.get(pathName))) {
             paths
-//                    .sorted(Comparator.comparing((Path p) -> p.toFile().length()).thenComparing(Path::toString))
+                    .sorted(Comparator.comparing((Path p) -> p.toFile().length()).thenComparing(Path::toString))
                     .parallel()
-                    .forEach(Recognizer::parseFile);
+                    .forEachOrdered(Recognizer::parseFile);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -70,12 +70,12 @@ public class Recognizer {
                 lexer.getInterpreter().clearDFA();
 //                if (parser.getNumberOfSyntaxErrors() == 0) {
                 if (listener.getSyntaxErrors() == 0) {
-                    System.out.println(program.getName() + " PASS");
-                    log.write(program.getPath() + " PASS\n");
+//                    System.out.println(program.getName() + " PASS");
+//                    log.write(program.getPath() + "\n");
                     noPassed.incrementAndGet();
                 } else {
-//                    System.out.println(program.getName() + " FAIL");
-//                    log.write(program.getPath() + " FAIL\n");
+                    System.out.println(program.getPath() + " FAIL");
+                    log.write(program.getPath() + " FAIL\n");
                     noFailed.incrementAndGet();
                 }
                 noProcessed.incrementAndGet();

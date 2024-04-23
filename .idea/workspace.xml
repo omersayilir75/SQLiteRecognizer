@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="983bca77-ff2a-44b9-a383-3db8629e48a3" name="Changes" comment="went through the generated pos samples, 907237/999999 samples passed.">
+    <list default="true" id="983bca77-ff2a-44b9-a383-3db8629e48a3" name="Changes" comment="update samplefinder with correct path">
+      <change afterPath="$PROJECT_DIR$/testing/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PPCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/SQLiteLexer.g4" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/SQLiteLexer.g4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Recognizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recognizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SampleFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SampleFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordMutator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordMutator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/SQLiteLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/SQLiteLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/SQLiteLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/SQLiteLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/SQLiteParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/SQLiteParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,20 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "omersayilir75"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;omersayilir75&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="3598222f-fa02-489e-b320-dfe85ad0a319" />
-        <option name="url" value="https://github.com/omersayilir75/SQLiteRecognizer.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/omersayilir75/SQLiteRecognizer.git&quot;,
+    &quot;accountId&quot;: &quot;3598222f-fa02-489e-b320-dfe85ad0a319&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -48,39 +50,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Recognizer.executor": "Run",
-    "Application.SampleFinder.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/omer_/IdeaProjects/SQLiteRecognizer/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Recognizer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SampleFinder.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordMutator.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/omer_/IdeaProjects/SQLiteRecognizer/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer\src" />
+      <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer\gen" />
       <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer\grammar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer\grammar" />
       <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer\src" />
       <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer\src\gen" />
     </key>
@@ -100,17 +105,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordMutator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordMutator" />
+      <module name="SQLiteRecognizer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SampleFinder" />
         <item itemvalue="Application.Recognizer" />
+        <item itemvalue="Application.WordMutator" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -132,6 +146,35 @@
       <workItem from="1710418522817" duration="71000" />
       <workItem from="1710418644696" duration="2364000" />
       <workItem from="1710421038127" duration="48057000" />
+      <workItem from="1710933618744" duration="289000" />
+      <workItem from="1710934233854" duration="10304000" />
+      <workItem from="1710950650727" duration="11106000" />
+      <workItem from="1711025785368" duration="7524000" />
+      <workItem from="1711094442744" duration="271000" />
+      <workItem from="1711099884828" duration="5510000" />
+      <workItem from="1711108452340" duration="1321000" />
+      <workItem from="1711355086108" duration="2421000" />
+      <workItem from="1711443977566" duration="2283000" />
+      <workItem from="1711549320164" duration="3120000" />
+      <workItem from="1711647666733" duration="623000" />
+      <workItem from="1711653066255" duration="71000" />
+      <workItem from="1711705536599" duration="19000" />
+      <workItem from="1711719288266" duration="996000" />
+      <workItem from="1712067017590" duration="142000" />
+      <workItem from="1712067753134" duration="2588000" />
+      <workItem from="1712149554703" duration="832000" />
+      <workItem from="1712304194293" duration="11000" />
+      <workItem from="1712308835000" duration="599000" />
+      <workItem from="1712319748107" duration="158000" />
+      <workItem from="1712838509778" duration="2503000" />
+      <workItem from="1713345805475" duration="5329000" />
+      <workItem from="1713434939754" duration="2071000" />
+      <workItem from="1713513569041" duration="3054000" />
+      <workItem from="1713519180487" duration="560000" />
+      <workItem from="1713519931873" duration="626000" />
+      <workItem from="1713699810971" duration="489000" />
+      <workItem from="1713700326282" duration="12024000" />
+      <workItem from="1713873559243" duration="9411000" />
     </task>
     <task id="LOCAL-00001" summary="added grammar files">
       <option name="closed" value="true" />
@@ -157,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710748445741</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update samplefinder with correct path">
+      <option name="closed" value="true" />
+      <created>1710933881379</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710933881379</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +218,23 @@
     <MESSAGE value="added grammar files" />
     <MESSAGE value="added dependencies, generated parser" />
     <MESSAGE value="went through the generated pos samples, 907237/999999 samples passed." />
-    <option name="LAST_COMMIT_MESSAGE" value="went through the generated pos samples, 907237/999999 samples passed." />
+    <MESSAGE value="update samplefinder with correct path" />
+    <option name="LAST_COMMIT_MESSAGE" value="update samplefinder with correct path" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recognizer.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CustomErrorListener.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

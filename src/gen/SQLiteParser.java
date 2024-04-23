@@ -248,15 +248,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_parse; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterParse(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterParse(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitParse(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitParse(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitParse(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitParse(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -315,15 +315,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_sql_stmt_list; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterSql_stmt_list(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterSql_stmt_list(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitSql_stmt_list(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitSql_stmt_list(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitSql_stmt_list(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitSql_stmt_list(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -355,7 +355,7 @@ public class SQLiteParser extends Parser {
 			setState(249);
 			_errHandler.sync(this);
 			_alt = getInterpreter().adaptivePredict(_input,3,_ctx);
-			while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
+			while ( _alt!=2 && _alt!= ATN.INVALID_ALT_NUMBER ) {
 				if ( _alt==1 ) {
 					{
 					{
@@ -385,7 +385,7 @@ public class SQLiteParser extends Parser {
 			setState(255);
 			_errHandler.sync(this);
 			_alt = getInterpreter().adaptivePredict(_input,4,_ctx);
-			while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
+			while ( _alt!=2 && _alt!= ATN.INVALID_ALT_NUMBER ) {
 				if ( _alt==1 ) {
 					{
 					{
@@ -494,15 +494,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_sql_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterSql_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterSql_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitSql_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitSql_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitSql_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitSql_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -734,15 +734,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_alter_table_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterAlter_table_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterAlter_table_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitAlter_table_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitAlter_table_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitAlter_table_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitAlter_table_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -880,15 +880,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_analyze_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterAnalyze_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterAnalyze_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitAnalyze_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitAnalyze_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitAnalyze_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitAnalyze_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -959,15 +959,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_attach_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterAttach_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterAttach_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitAttach_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitAttach_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitAttach_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitAttach_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1025,15 +1025,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_begin_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterBegin_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterBegin_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitBegin_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitBegin_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitBegin_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitBegin_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1109,15 +1109,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_commit_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterCommit_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterCommit_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitCommit_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitCommit_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitCommit_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitCommit_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1177,15 +1177,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_rollback_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterRollback_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterRollback_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitRollback_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitRollback_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitRollback_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitRollback_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1256,15 +1256,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_savepoint_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterSavepoint_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterSavepoint_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitSavepoint_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitSavepoint_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitSavepoint_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitSavepoint_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1305,15 +1305,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_release_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterRelease_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterRelease_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitRelease_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitRelease_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitRelease_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitRelease_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1392,15 +1392,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_create_index_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterCreate_index_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterCreate_index_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitCreate_index_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitCreate_index_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitCreate_index_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitCreate_index_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1526,15 +1526,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_indexed_column; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterIndexed_column(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterIndexed_column(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitIndexed_column(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitIndexed_column(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitIndexed_column(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitIndexed_column(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1644,15 +1644,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_create_table_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterCreate_table_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterCreate_table_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitCreate_table_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitCreate_table_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitCreate_table_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitCreate_table_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1727,7 +1727,7 @@ public class SQLiteParser extends Parser {
 				setState(440);
 				_errHandler.sync(this);
 				_alt = getInterpreter().adaptivePredict(_input,36,_ctx);
-				while ( _alt!=1 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
+				while ( _alt!=1 && _alt!= ATN.INVALID_ALT_NUMBER ) {
 					if ( _alt==1+1 ) {
 						{
 						{
@@ -1818,15 +1818,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_column_def; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterColumn_def(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterColumn_def(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitColumn_def(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitColumn_def(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitColumn_def(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitColumn_def(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1900,15 +1900,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_type_name; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterType_name(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterType_name(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitType_name(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitType_name(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitType_name(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitType_name(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -1939,7 +1939,7 @@ public class SQLiteParser extends Parser {
 				setState(472); 
 				_errHandler.sync(this);
 				_alt = getInterpreter().adaptivePredict(_input,42,_ctx);
-			} while ( _alt!=1 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER );
+			} while ( _alt!=1 && _alt!= ATN.INVALID_ALT_NUMBER );
 			setState(484);
 			_errHandler.sync(this);
 			switch ( getInterpreter().adaptivePredict(_input,43,_ctx) ) {
@@ -2030,15 +2030,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_column_constraint; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterColumn_constraint(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterColumn_constraint(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitColumn_constraint(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitColumn_constraint(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitColumn_constraint(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitColumn_constraint(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2278,15 +2278,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_signed_number; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterSigned_number(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterSigned_number(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitSigned_number(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitSigned_number(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitSigned_number(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitSigned_number(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2375,15 +2375,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_table_constraint; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterTable_constraint(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterTable_constraint(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitTable_constraint(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitTable_constraint(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitTable_constraint(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitTable_constraint(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2606,15 +2606,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_foreign_key_clause; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterForeign_key_clause(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterForeign_key_clause(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitForeign_key_clause(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitForeign_key_clause(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitForeign_key_clause(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitForeign_key_clause(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2810,15 +2810,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_conflict_clause; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterConflict_clause(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterConflict_clause(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitConflict_clause(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitConflict_clause(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitConflict_clause(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitConflict_clause(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -2940,15 +2940,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_create_trigger_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterCreate_trigger_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterCreate_trigger_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitCreate_trigger_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitCreate_trigger_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitCreate_trigger_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitCreate_trigger_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -3219,15 +3219,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_create_view_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterCreate_view_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterCreate_view_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitCreate_view_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitCreate_view_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitCreate_view_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitCreate_view_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -3373,15 +3373,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_create_virtual_table_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterCreate_virtual_table_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterCreate_virtual_table_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitCreate_virtual_table_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitCreate_virtual_table_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitCreate_virtual_table_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitCreate_virtual_table_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -3512,15 +3512,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_with_clause; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterWith_clause(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterWith_clause(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitWith_clause(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitWith_clause(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitWith_clause(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitWith_clause(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -3614,15 +3614,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_cte_table_name; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterCte_table_name(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterCte_table_name(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitCte_table_name(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitCte_table_name(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitCte_table_name(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitCte_table_name(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -3701,15 +3701,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_recursive_cte; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterRecursive_cte(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterRecursive_cte(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitRecursive_cte(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitRecursive_cte(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitRecursive_cte(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitRecursive_cte(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -3791,15 +3791,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_common_table_expression; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterCommon_table_expression(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterCommon_table_expression(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitCommon_table_expression(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitCommon_table_expression(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitCommon_table_expression(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitCommon_table_expression(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -3887,15 +3887,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_delete_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterDelete_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterDelete_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitDelete_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitDelete_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitDelete_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitDelete_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -3987,15 +3987,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_delete_stmt_limited; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterDelete_stmt_limited(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterDelete_stmt_limited(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitDelete_stmt_limited(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitDelete_stmt_limited(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitDelete_stmt_limited(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitDelete_stmt_limited(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -4091,15 +4091,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_detach_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterDetach_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterDetach_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitDetach_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitDetach_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitDetach_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitDetach_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -4160,15 +4160,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_drop_stmt; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterDrop_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterDrop_stmt(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitDrop_stmt(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitDrop_stmt(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitDrop_stmt(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitDrop_stmt(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -4344,15 +4344,15 @@ public class SQLiteParser extends Parser {
 		@Override public int getRuleIndex() { return RULE_expr; }
 		@Override
 		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).enterExpr(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).enterExpr(this);
 		}
 		@Override
 		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof SQLiteParserListener ) ((SQLiteParserListener)listener).exitExpr(this);
+			if ( listener instanceof SQLiteParserListener) ((SQLiteParserListener)listener).exitExpr(this);
 		}
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof SQLiteParserVisitor ) return ((SQLiteParserVisitor<? extends T>)visitor).visitExpr(this);
+			if ( visitor instanceof SQLiteParserVisitor) return ((SQLiteParserVisitor<? extends T>)visitor).visitExpr(this);
 			else return visitor.visitChildren(this);
 		}
 	}
@@ -4800,7 +4800,7 @@ public class SQLiteParser extends Parser {
 			setState(1085);
 			_errHandler.sync(this);
 			_alt = getInterpreter().adaptivePredict(_input,137,_ctx);
-			while ( _alt!=2 && _alt!=org.antlr.v4.runtime.atn.ATN.INVALID_ALT_NUMBER ) {
+			while ( _alt!=2 && _alt!= ATN.INVALID_ALT_NUMBER ) {
 				if ( _alt==1 ) {
 					if ( _parseListeners!=null ) triggerExitRuleEvent();
 					_prevctx = _localctx;

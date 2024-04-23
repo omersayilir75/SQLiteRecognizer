@@ -236,11 +236,11 @@ BLOB_LITERAL: 'X' STRING_LITERAL;
 
 //todo this prob won't work for word mutation just ingoring would be better...
 
-SINGLE_LINE_COMMENT: '--' ~[\r\n]* (('\r'? '\n') | EOF) -> channel(HIDDEN);
+SINGLE_LINE_COMMENT: '--' ~[\r\n]* (('\r'? '\n') | EOF) -> skip;
 
-MULTILINE_COMMENT: '/*' .*? '*/' -> channel(HIDDEN);
+MULTILINE_COMMENT: '/*' .*? '*/' -> skip;
 
-SPACES: [ \u000B\t\r\n] -> channel(HIDDEN);
+SPACES: [ \u000B\t\r\n] -> skip;
 
 UNEXPECTED_CHAR: .;
 

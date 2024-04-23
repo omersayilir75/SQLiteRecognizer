@@ -19,7 +19,7 @@ public class WordMutator {
     static HashSet<TokenTypePair> poisonedPairs = new HashSet<>();
     static Hashtable<Integer, String> tokenInstances = new Hashtable<>();
     static Hashtable<Integer, TokenNeighbours> tokenNeighboursHashtable = new Hashtable<>();
-    static String targetBase = "C:\\Users\\omer_\\Desktop\\gensamples\\negative\\babycobol\\wordmutation\\output\\subfolder";
+    static String targetBase = "C:\\Users\\omer_\\Desktop\\gensamples\\negative\\SQLite\\wordmutation\\output\\subfolder";
     static AtomicInteger currentOutputSubfolder = new AtomicInteger(1);
     static String targetPath;
     static AtomicInteger filesCreated = new AtomicInteger(0);
@@ -28,7 +28,7 @@ public class WordMutator {
         PPCalculator.calculatePoisonedPairs(poisonedPairs, tokenInstances, tokenNeighboursHashtable);
         targetPath = targetBase + currentOutputSubfolder.get();
         Files.createDirectory(Paths.get(targetPath));
-        String pathName = "C:\\Users\\omer_\\Desktop\\gensamples\\negative\\babycobol\\wordmutation\\input";
+        String pathName = "C:\\Users\\omer_\\Desktop\\gensamples\\negative\\SQLite\\wordmutation\\input";
         processDir(pathName);
 
     }
