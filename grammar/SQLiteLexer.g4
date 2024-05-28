@@ -224,7 +224,7 @@ IDENTIFIER:
     | '`' (~'`' | '``')* '`'
     | '[' ~']'* ']'
     | [A-Z_] [A-Z_0-9]*
-; // TODO check: needs more chars in set
+;
 
 NUMERIC_LITERAL: ((DIGIT+ ('.' DIGIT*)?) | ('.' DIGIT+)) ('E' [-+]? DIGIT+)? | '0x' HEX_DIGIT+;
 
@@ -234,7 +234,6 @@ STRING_LITERAL: '\'' ( ~'\'' | '\'\'')* '\'';
 
 BLOB_LITERAL: 'X' STRING_LITERAL;
 
-//todo this prob won't work for word mutation just ingoring would be better...
 
 SINGLE_LINE_COMMENT: '--' ~[\r\n]* (('\r'? '\n') | EOF) -> skip;
 

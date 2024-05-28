@@ -65,13 +65,11 @@ public class Recognizer {
                 CustomErrorListener listener = new CustomErrorListener();
                 parser.addErrorListener(listener);
                 ParseTree tree = parser.parse();
-                //todo check if neccesary
                 parser.getInterpreter().clearDFA();
                 lexer.getInterpreter().clearDFA();
-//                if (parser.getNumberOfSyntaxErrors() == 0) {
                 if (listener.getSyntaxErrors() == 0) {
-//                    System.out.println(program.getName() + " PASS");
-//                    log.write(program.getPath() + "\n");
+                    System.out.println(program.getName() + " PASS");
+                    log.write(program.getPath() + "\n");
                     noPassed.incrementAndGet();
                 } else {
                     System.out.println(program.getPath() + " FAIL");

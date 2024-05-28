@@ -67,7 +67,7 @@ public class PPCalculator {
                 SQLiteLexer lexer = new SQLiteLexer(input);
                 CommonTokenStream tokens = new CommonTokenStream(lexer);
                 tokens.fill();
-                for (int i = 0; i < tokens.size(); i++) { //todo foreachify
+                for (int i = 0; i < tokens.size(); i++) {
                     Token token = tokens.get(i);
                     Token prevToken = i > 0 ? tokens.get(i - 1) : null;
                     Token nextToken = i < tokens.size() - 1 ? tokens.get(i + 1) : null;

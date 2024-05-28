@@ -27,3 +27,11 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/details.csv
+/log.txt
+/log_failing_sql.txt
+/log_old.txt
+/poisoned_pairs.json
+/precede_and_follow_all_datasets.json
+/gen/
+/grammar/gen/

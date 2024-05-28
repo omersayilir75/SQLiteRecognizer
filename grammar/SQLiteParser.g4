@@ -593,7 +593,7 @@ expr_asc_desc
     : expr asc_desc? (COMMA expr asc_desc?)*
 ;
 
-//TODO BOTH OF THESE HAVE TO BE REWORKED TO FOLLOW THE SPEC
+
 initial_select
     : select_stmt
 ;
@@ -614,7 +614,7 @@ error_message
 ;
 
 module_argument
-    : // TODO check what exactly is permitted here
+    :
     expr
     | column_def
 ;
@@ -782,7 +782,7 @@ keyword
     | EXCLUDE_
 ;
 
-// TODO: check all names below
+
 
 name
     : any_name

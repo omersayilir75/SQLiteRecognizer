@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="983bca77-ff2a-44b9-a383-3db8629e48a3" name="Changes" comment="update samplefinder with correct path">
-      <change afterPath="$PROJECT_DIR$/testing/test.txt" afterDir="false" />
+    <list default="true" id="983bca77-ff2a-44b9-a383-3db8629e48a3" name="Changes" comment="moving over to desktop">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_05_2024_10_24_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_05_2024_10_24__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar/test.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grammar/SQLiteLexer.g4" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/SQLiteLexer.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/SQLiteParser.g4" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/SQLiteParser.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PPCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PPCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Recognizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recognizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WordMutator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordMutator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gen/SQLiteLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/SQLiteLexer.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gen/SQLiteLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/SQLiteLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gen/SQLiteParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/SQLiteParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wm_input.7z" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/omer_/IdeaProjects/SQLiteRecognizer/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/omer_/IdeaProjects/SQLiteRecognizer&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -80,6 +83,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer" />
       <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer\src" />
       <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer\gen" />
       <recent name="C:\Users\omer_\IdeaProjects\SQLiteRecognizer\grammar" />
@@ -174,7 +178,8 @@
       <workItem from="1713519931873" duration="626000" />
       <workItem from="1713699810971" duration="489000" />
       <workItem from="1713700326282" duration="12024000" />
-      <workItem from="1713873559243" duration="9411000" />
+      <workItem from="1713873559243" duration="9836000" />
+      <workItem from="1716884401112" duration="728000" />
     </task>
     <task id="LOCAL-00001" summary="added grammar files">
       <option name="closed" value="true" />
@@ -208,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710933881379</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="moving over to desktop">
+      <option name="closed" value="true" />
+      <created>1713893122771</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713893122771</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,14 +232,15 @@
     <MESSAGE value="added dependencies, generated parser" />
     <MESSAGE value="went through the generated pos samples, 907237/999999 samples passed." />
     <MESSAGE value="update samplefinder with correct path" />
-    <option name="LAST_COMMIT_MESSAGE" value="update samplefinder with correct path" />
+    <MESSAGE value="moving over to desktop" />
+    <option name="LAST_COMMIT_MESSAGE" value="moving over to desktop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Recognizer.java</url>
-          <line>71</line>
+          <line>69</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
